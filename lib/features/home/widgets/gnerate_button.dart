@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import 'package:whispertales/core/styles/customs_color.dart';
 import 'package:whispertales/core/styles/styles.dart';
 
-Widget gnerateButton() {
+Widget gnerateButton(context) {
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: GestureDetector(
-      onTap: () {},
+      onTap: () {
+        //Navigator.pushReplacementNamed(context, Routes.audioScreen);
+      },
       child: Container(
         width: 200.w,
         height: 60.h,

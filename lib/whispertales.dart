@@ -17,7 +17,7 @@ class WhisperTales extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'WhisperTales',
         onGenerateRoute: appRouter.gnerateRoute,
-        initialRoute: Routes.naivBar,
+        initialRoute: Routes.audioScreen,
       ),
     );
   }

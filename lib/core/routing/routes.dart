@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whispertales/features/audio/view.dart';
 import 'package:whispertales/features/home/view.dart';
 import 'package:whispertales/features/naivBar/naiv_bar.dart';
 import 'package:whispertales/features/splash/view.dart';
@@ -24,6 +25,10 @@ class AppRoutes {
     switch (screen.name) {
       case Routes.naivBar:
         return MaterialPageRoute(builder: (context) => const BottomNavBar());
+    }
+    switch (screen.name) {
+      case Routes.audioScreen:
+        return MaterialPageRoute(builder: (context) => const AudioScreen());
     }
 
     return null;
