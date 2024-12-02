@@ -7,7 +7,7 @@ Widget userInputText() {
     child: TextField(
       style: AppTextStyles.font20GoogleFontEWhite,
       decoration: const InputDecoration(
-        contentPadding: EdgeInsets.symmetric(vertical: 90.0),
+        contentPadding: EdgeInsets.symmetric(vertical: 70.0),
         border: OutlineInputBorder(),
         hintText: '   Describe your topic...',
       ),

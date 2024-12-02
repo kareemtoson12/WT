@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whispertales/features/home/view.dart';
+import 'package:whispertales/features/naivBar/naiv_bar.dart';
 import 'package:whispertales/features/splash/view.dart';
 import 'package:whispertales/core/routing/app_routes.dart';
 
@@ -19,6 +20,10 @@ class AppRoutes {
     switch (screen.name) {
       case Routes.home:
         return MaterialPageRoute(builder: (context) => const HomeScreen());
+    }
+    switch (screen.name) {
+      case Routes.naivBar:
+        return MaterialPageRoute(builder: (context) => const BottomNavBar());
     }
 
     return null;

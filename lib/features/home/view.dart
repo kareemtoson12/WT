@@ -55,12 +55,12 @@ class HomeScreen extends StatelessWidget {
               // user input
               userInputText(),
               //creativty selection
-              // const SetCreativty(),
+              const SetCreativty(),
 
               //select genre
               const CategorySelection(),
               SizedBox(
-                height: 110.h,
+                height: 10.h,
               ),
               gnerateButton()
             ],

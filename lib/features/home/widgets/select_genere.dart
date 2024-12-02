@@ -20,9 +20,13 @@ class _CategorySelectionState extends State<CategorySelection> {
       padding: EdgeInsets.symmetric(horizontal: 10.0.dg),
       child: Column(
         children: [
-          Text(
-            'Select a Genre:',
-            style: AppTextStyles.font20GoogleFont,
+          Row(
+            children: [
+              Text(
+                'Select a Genre:',
+                style: AppTextStyles.font20GoogleFont,
+              ),
+            ],
           ),
           SizedBox(height: 10.h),
           DropdownButtonFormField<String>(
